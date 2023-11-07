@@ -1,0 +1,27 @@
+.navBar-container {
+    position: sticky;
+    z-index: 3;
+    top: 0;
+    width: 100%;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 12vh;
+    background:rgba(255, 255, 255, 0.7);
+    backdrop-filter: blur(5px);
+}
+
+.navBar-logo {
+    cursor: pointer;
+    width: 240px;
+    margin-left: 20px;
+}
+
+.navBar-cartWidget {
+    cursor: pointer;
+    margin-right: 25px;
+    text-decoration: none;
+}
