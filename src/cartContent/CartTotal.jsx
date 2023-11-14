@@ -9,7 +9,7 @@ function CartTotal() {
     return (
         <div className="cartTotal">
             <h3>
-                Total a pagar: ${total}
+                Total: ${total}
             </h3>
         </div>
     )

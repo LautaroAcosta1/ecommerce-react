@@ -4,7 +4,7 @@ function Banner() {
     return (
         <div className='banner-container'>
             <div className='banner'>
-                <h1 className="title">Celualres en Stock:</h1>
+                <h1 className="title">Phones Stock:</h1>
             </div>
         </div>
     )

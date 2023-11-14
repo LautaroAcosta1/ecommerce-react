@@ -14,7 +14,7 @@ function Products() {
                 </div>
                 <h3 className="name-card">{product.name}</h3>
                 <h4 className="price-card">${product.price}</h4>
-                <button className="btn-card" onClick={() => buyProducts(product)}>COMPRAR</button>
+                <button className="btn-card" onClick={() => buyProducts(product)}>BUY</button>
             </div>
         )
     })

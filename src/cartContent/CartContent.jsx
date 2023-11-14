@@ -17,7 +17,7 @@ function CartContent() {
         </div>
     ) : (
         <h2 className="cartMessage">
-            Carrito vacio.
+            Cart empty.
         </h2>
     )
 }
