@@ -63,5 +63,19 @@
 }
 
 #btnDelete-cart {
+    padding: 1.5em 1.5em;
+    text-transform: uppercase;
+    color: #000;
+    background-color: rgb(201, 201, 201);
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+    transition: all 0.5s ease 0s;
     cursor: pointer;
+    outline: none;
+}
+
+#btnDelete-cart:hover {
+    background-color: #006eff;
+    color: #fff;
 }
